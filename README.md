@@ -1,6 +1,6 @@
 # ha-linknx
 
-This integration between Linknx and Home Assistant.
+This integration between Linknx and Home Assistant (HA).
 
 ### Installation
 
@@ -48,20 +48,20 @@ The integration currently supports light, switch, sensor and binary_sensor, is't
 
 - switch
   - id: The linknx id (mandatory)
-  - name: The name of the light in HA (mandatory)
+  - name: The name of the switch in HA (mandatory)
 
 - sensor
   - id: The linknx id (mandatory)
-  - name: The name of the light in HA (mandatory)
+  - name: The name of the sensor in HA (mandatory)
   - type: "lx" - for light or "°C" for temperature (this might change) (mandatory)
 
 - binary_sensor
   - id The linknx id (mandatory)
-  - name: The name of the light in HA (mandatory)
+  - name: The name of the binary_sensor in HA (mandatory)
   - type: "binary" (default) or "workday" (just set another icon) (optional)
 
-This project is currently a lot of work in progress, thing that will change:
+This project is currently a lot of work in progress, things that will change:
 
 - Name the sensor types differently
-- Use the linknx/pyknx library instead of my own
+- Use the linknx/pyknx library instead of my own implementation
 
