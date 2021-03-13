@@ -1,0 +1,9 @@
+{
+  "domain": "linknx",
+  "name": "Integration to linknx",
+  "documentation": "https://github.com/JohanEkblad/ha-linknx",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": [],
+  "version": "0.0.1"
+}
