@@ -1,6 +1,6 @@
 # ha-linknx
 
-This is a integration between Linknx and Home Assistant (HA).
+This is a integration between Home Assistant (HA) and Linknx.
 
 ### Installation
 
